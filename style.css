@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    
+    background-image: linear-gradient( rgba(110, 119, 233, 0.87),rgba(7, 14, 106, 0.87), rgba(0, 0, 80, 0.96));
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    
+    
+}
+
+.logo-div{
+    
+    margin-right: auto;
+    
+}
+
+.logo{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.container{
+    width: 80%;
+    margin: auto auto;
+}
+
+.content{
+    
+    margin: auto
+}
+
+.moonreading{
+    border: 2px dotted white;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.moonreading a {
+    color: yellow;
+}
+
+
+h4{
+    padding: 18px;
+}
+
+.main-article{
+    
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.zodiac_list{
+    padding: 10px;
+}
+
+.zodiac_list ul li{
+    padding: 5px;
+}
+
+.planet_list, .house_list{
+    padding: 10px;
+}
+
+.planet_list ul li, .house_list ul li{
+    padding: 10px;
+}
+
+.bold_text{
+    font-weight: bold;
+    padding: 5px;
+}
+
+.photo{
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    height:auto;
+    
+}
+
+.photo img{
+    height: inherit;
+    width: inherit;
+}
+
+.section-header{
+    padding-bottom: 10px;
+}
+
+.article-sections{
+    padding: 10px;
+}
+
+.article_decoration{
+    display: block;
+}
+
+@media(max-width:640px){
+    body{
+        font-family: sans-serif;
+        
+        background-image: linear-gradient( rgba(110, 119, 233, 0.87),rgba(7, 14, 106, 0.87), rgba(0, 0, 80, 0.96));
+        color: white;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 10%;
+        
+        
+    }
+    
+    .logo-div{
+        
+        margin-right: auto;
+        
+    }
+    
+    .logo{
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+    
+   .mycalmself{
+    font-weight: bold;
+    
+   }
+    
+    .links li {
+        display: inline-block;
+        padding: 0px 20px;
+        
+    }
+    
+    .container{
+        width: 100%;
+        margin: auto auto;
+    }
+    
+    .content{
+        
+        margin: auto
+    }
+    
+    .moonreading{
+        border: 2px dotted white;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    
+    .moonreading a {
+        color: yellow;
+    }
+    
+    h4{
+        padding: 12px;
+    }
+    
+    .main-article{
+        
+        width: 60%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .zodiac_list{
+        padding: 10px;
+    }
+    
+    .zodiac_list ul li{
+        padding: 5px;
+    }
+    
+    .planet_list, .house_list{
+        padding: 10px;
+    }
+    
+    .planet_list ul li, .house_list ul li{
+        padding: 10px;
+    }
+    
+    .bold_text{
+        font-weight: bold;
+        padding: 5px;
+    }
+    
+    .photo{
+        margin: auto;
+        text-align: center;
+        width: 60%;
+        height:auto;
+        
+    }
+    
+    .photo img{
+        height: inherit;
+        width: inherit;
+    }
+    
+    .section-header{
+        padding-bottom: 10px;
+    }
+    
+    .article-sections{
+        padding: 10px;
+    }
+    
+    .article_decoration{
+        display: block;
+    }
+
+}
